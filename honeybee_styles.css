@@ -1,0 +1,134 @@
+@media only screen and (min-width: 700px){
+*{
+    padding:0;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F5C2C4;
+}
+
+.header{
+    align-items: center;
+    display: block;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+    text-align: center;
+    padding: 15px;
+    background-color:#F8E7D5;
+}
+
+h1{
+    font-size: 56px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2{
+    font-size: 48px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p{
+    font-size: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3{
+    font-size: 36px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h4{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.bodyP{
+    background-color:white;
+    text-align: center;
+    padding: 50px;
+}
+
+.bodyP .page_selector,
+.bodyP .cakes{
+    margin-left: auto;
+    display: block;
+    text-align: center;
+    column-gap: 15px;
+}
+
+.bodyP .cakes,
+.bodyP .brownie,
+.bodyP .bread,
+.bodyP .muffins{
+    h1{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+}
+
+a{
+    font-size: 28px;
+}
+
+a:link{
+    color: purple;
+    text-decoration: underline;
+}
+
+a:visited{
+    color: palevioletred;
+}
+
+a:hover{
+    color: darkblue;
+    text-decoration: underline;
+}
+
+a:active{
+    color: red;
+    text-decoration: none;
+}
+
+.about_us{
+    background-color:#F8E7D5;
+    font-size: 25px;
+    text-align: center;
+}
+
+footer{
+    background-color: #E5BC7D;
+    margin-top: 10px;
+    a{
+        font-size: 22px;
+    }
+    border: 1px solid black;
+}
+
+section{
+    background-color: white;
+    border: 3px solid #E5BC7D;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+}
